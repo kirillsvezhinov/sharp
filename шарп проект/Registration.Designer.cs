@@ -76,7 +76,7 @@ namespace шарп_проект
             "Оператор ОМСУ"});
             this.listBox1.Location = new System.Drawing.Point(219, 98);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(150, 104);
+            this.listBox1.Size = new System.Drawing.Size(199, 104);
             this.listBox1.TabIndex = 4;
             // 
             // label2
@@ -134,7 +134,7 @@ namespace шарп_проект
             // 
             this.button1.Location = new System.Drawing.Point(219, 252);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(151, 29);
+            this.button1.Size = new System.Drawing.Size(176, 29);
             this.button1.TabIndex = 11;
             this.button1.Text = "Зарегистрироваться";
             this.button1.UseVisualStyleBackColor = true;
@@ -144,7 +144,7 @@ namespace шарп_проект
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(382, 339);
+            this.ClientSize = new System.Drawing.Size(430, 339);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);

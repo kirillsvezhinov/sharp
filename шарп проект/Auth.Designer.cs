@@ -76,9 +76,9 @@ namespace шарп_проект
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(64, 183);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(52, 20);
+            this.label3.Size = new System.Drawing.Size(62, 20);
             this.label3.TabIndex = 4;
-            this.label3.Text = "Логин";
+            this.label3.Text = "Пароль";
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // button1
