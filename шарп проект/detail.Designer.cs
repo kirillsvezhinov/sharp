@@ -42,11 +42,13 @@ namespace шарп_проект
             this.label7 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(43, 111);
+            this.textBox1.Location = new System.Drawing.Point(43, 90);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(125, 27);
             this.textBox1.TabIndex = 0;
@@ -81,7 +83,7 @@ namespace шарп_проект
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(41, 214);
+            this.label4.Location = new System.Drawing.Point(41, 240);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(40, 20);
             this.label4.TabIndex = 4;
@@ -106,7 +108,7 @@ namespace шарп_проект
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(41, 237);
+            this.textBox3.Location = new System.Drawing.Point(43, 263);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(125, 27);
             this.textBox3.TabIndex = 7;
@@ -130,7 +132,7 @@ namespace шарп_проект
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(185, 223);
+            this.label7.Location = new System.Drawing.Point(199, 240);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(165, 20);
             this.label7.TabIndex = 11;
@@ -138,28 +140,64 @@ namespace шарп_проект
             // 
             // comboBox1
             // 
+            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(199, 262);
+            this.comboBox1.Items.AddRange(new object[] {
+            "ИП",
+            "ЮРЛИЦО"});
+            this.comboBox1.Location = new System.Drawing.Point(199, 263);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(151, 28);
             this.comboBox1.TabIndex = 12;
             // 
             // comboBox2
             // 
+            this.comboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox2.FormattingEnabled = true;
             this.comboBox2.Items.AddRange(new object[] {
-            "ИП",
-            "ЮРЛИЦО"});
+            "Исполнительный орган государственной власти",
+            "Орган местного самоуправления",
+            "Приют",
+            "Организация по отлову",
+            "Организация по отлову и приют",
+            "Организация по транспортировке",
+            "Ветеринарная клиника: государственная",
+            "Ветеринарная клиника: муниципальная",
+            "Ветеринарная клиника: частная",
+            "Благотворительный фонд",
+            "Организации по продаже товаров и предоставлению услуг для животных",
+            "Заявитель (для регистрации представителя юридического лица, подающего заявку на о" +
+                "тлов)"});
             this.comboBox2.Location = new System.Drawing.Point(199, 174);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(151, 28);
             this.comboBox2.TabIndex = 13;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(41, 365);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(117, 29);
+            this.button1.TabIndex = 14;
+            this.button1.Text = "Выполнить";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(199, 365);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(117, 29);
+            this.button2.TabIndex = 15;
+            this.button2.Text = "Отменить";
+            this.button2.UseVisualStyleBackColor = true;
             // 
             // detail
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(466, 450);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.comboBox2);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label7);
@@ -195,5 +233,7 @@ namespace шарп_проект
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
     }
 }

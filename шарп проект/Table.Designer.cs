@@ -100,6 +100,7 @@ namespace шарп_проект
             // 
             // comboBox1
             // 
+            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
             "По алфавиту",
@@ -132,10 +133,14 @@ namespace шарп_проект
             // 
             // comboBox2
             // 
+            this.comboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox2.FormattingEnabled = true;
             this.comboBox2.Items.AddRange(new object[] {
-            "Показать только "});
-            this.comboBox2.Location = new System.Drawing.Point(11, 42);
+            "По названию",
+            "По ИНН",
+            "По КПП",
+            "По адресу регистрации"});
+            this.comboBox2.Location = new System.Drawing.Point(6, 29);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(151, 28);
             this.comboBox2.TabIndex = 9;
@@ -155,10 +160,12 @@ namespace шарп_проект
             // radioButton3
             // 
             this.radioButton3.AutoSize = true;
+            this.radioButton3.Checked = true;
             this.radioButton3.Location = new System.Drawing.Point(11, 61);
             this.radioButton3.Name = "radioButton3";
             this.radioButton3.Size = new System.Drawing.Size(54, 24);
             this.radioButton3.TabIndex = 13;
+            this.radioButton3.TabStop = true;
             this.radioButton3.Text = "Все";
             this.radioButton3.UseVisualStyleBackColor = true;
             // 
@@ -184,13 +191,14 @@ namespace шарп_проект
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(6, 35);
+            this.textBox1.Location = new System.Drawing.Point(6, 79);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(125, 27);
             this.textBox1.TabIndex = 11;
             // 
             // comboBox3
             // 
+            this.comboBox3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox3.FormattingEnabled = true;
             this.comboBox3.Items.AddRange(new object[] {
             "Все",
@@ -224,9 +232,10 @@ namespace шарп_проект
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.textBox1);
-            this.groupBox2.Location = new System.Drawing.Point(11, 83);
+            this.groupBox2.Controls.Add(this.comboBox2);
+            this.groupBox2.Location = new System.Drawing.Point(12, 46);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(177, 83);
+            this.groupBox2.Size = new System.Drawing.Size(177, 112);
             this.groupBox2.TabIndex = 15;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Поиск";
@@ -240,7 +249,6 @@ namespace шарп_проект
             this.Controls.Add(this.label6);
             this.Controls.Add(this.comboBox3);
             this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.comboBox2);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.comboBox1);
