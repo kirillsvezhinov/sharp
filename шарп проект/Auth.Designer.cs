@@ -114,7 +114,7 @@ namespace шарп_проект
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
             this.Name = "Auth";
-            this.Text = "Form1";
+            this.Text = "Авторизация";
             this.ResumeLayout(false);
             this.PerformLayout();
 

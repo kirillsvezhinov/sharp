@@ -95,9 +95,9 @@ namespace шарп_проект
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(199, 67);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(151, 20);
+            this.label5.Size = new System.Drawing.Size(144, 20);
             this.label5.TabIndex = 5;
-            this.label5.Text = "Адресс регистрации";
+            this.label5.Text = "Адрес регистрации";
             // 
             // textBox2
             // 
@@ -212,7 +212,7 @@ namespace шарп_проект
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox1);
             this.Name = "detail";
-            this.Text = "Form1";
+            this.Text = "Добавить / Изменить";
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -156,7 +156,7 @@ namespace шарп_проект
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
             this.Name = "Registration";
-            this.Text = "Form2";
+            this.Text = "Регистрация";
             this.ResumeLayout(false);
             this.PerformLayout();
 

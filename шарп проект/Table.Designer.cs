@@ -46,9 +46,12 @@ namespace шарп_проект
             this.comboBox3 = new System.Windows.Forms.ComboBox();
             this.label6 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.button3 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
+            this.groupBox3.SuspendLayout();
             this.SuspendLayout();
             // 
             // button1
@@ -64,7 +67,7 @@ namespace шарп_проект
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(669, 9);
+            this.label1.Location = new System.Drawing.Point(666, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(62, 20);
             this.label1.TabIndex = 1;
@@ -75,9 +78,9 @@ namespace шарп_проект
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(666, 34);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(122, 20);
+            this.label2.Size = new System.Drawing.Size(124, 20);
             this.label2.TabIndex = 2;
-            this.label2.Text = "Оператор УМСУ";
+            this.label2.Text = "Оператор ОМСУ";
             // 
             // dataGridView1
             // 
@@ -240,11 +243,31 @@ namespace шарп_проект
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Поиск";
             // 
+            // groupBox3
+            // 
+            this.groupBox3.Controls.Add(this.button3);
+            this.groupBox3.Location = new System.Drawing.Point(12, 444);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(177, 96);
+            this.groupBox3.TabIndex = 16;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "Экспорт в Excel";
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(10, 40);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(140, 29);
+            this.button3.TabIndex = 0;
+            this.button3.Text = "Экспортировать";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
             // Table
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 683);
+            this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.comboBox3);
@@ -258,12 +281,13 @@ namespace шарп_проект
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
             this.Name = "Table";
-            this.Text = "Form1";
+            this.Text = "Реестр организации";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
+            this.groupBox3.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -288,5 +312,7 @@ namespace шарп_проект
         private System.Windows.Forms.ComboBox comboBox3;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.Button button3;
     }
 }
