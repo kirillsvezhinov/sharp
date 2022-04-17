@@ -11,7 +11,7 @@ namespace шарп_проект
             return null;
         }
 
-        public User Registration(string login, string password, string role)
+        public User Registration(string fullname, string login, string password, string role)
         {
             return null;
         }

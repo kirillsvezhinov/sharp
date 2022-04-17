@@ -11,5 +11,10 @@ namespace шарп_проект
         public string Role { get; set; }
         public string login { get; set; }
         public string Password { get; set; }
+
+        public bool Add()
+        {
+            return false;
+        }
     }
 }
