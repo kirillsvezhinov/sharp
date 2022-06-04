@@ -1,0 +1,38 @@
+C:\Users\1392967\Desktop\Jäger\UTMN\Course_3\Sharp\шарп проект\bin\Debug\netcoreapp3.1\шарп проект.exe
+C:\Users\1392967\Desktop\Jäger\UTMN\Course_3\Sharp\шарп проект\bin\Debug\netcoreapp3.1\шарп проект.deps.json
+C:\Users\1392967\Desktop\Jäger\UTMN\Course_3\Sharp\шарп проект\bin\Debug\netcoreapp3.1\шарп проект.runtimeconfig.json
+C:\Users\1392967\Desktop\Jäger\UTMN\Course_3\Sharp\шарп проект\bin\Debug\netcoreapp3.1\шарп проект.runtimeconfig.dev.json
+C:\Users\1392967\Desktop\Jäger\UTMN\Course_3\Sharp\шарп проект\bin\Debug\netcoreapp3.1\шарп проект.dll
+C:\Users\1392967\Desktop\Jäger\UTMN\Course_3\Sharp\шарп проект\bin\Debug\netcoreapp3.1\шарп проект.pdb
+C:\Users\1392967\Desktop\Jäger\UTMN\Course_3\Sharp\шарп проект\obj\Debug\netcoreapp3.1\шарп_проект.Auth.resources
+C:\Users\1392967\Desktop\Jäger\UTMN\Course_3\Sharp\шарп проект\obj\Debug\netcoreapp3.1\шарп_проект.detail.resources
+C:\Users\1392967\Desktop\Jäger\UTMN\Course_3\Sharp\шарп проект\obj\Debug\netcoreapp3.1\шарп_проект.Registration.resources
+C:\Users\1392967\Desktop\Jäger\UTMN\Course_3\Sharp\шарп проект\obj\Debug\netcoreapp3.1\шарп_проект.Table.resources
+C:\Users\1392967\Desktop\Jäger\UTMN\Course_3\Sharp\шарп проект\obj\Debug\netcoreapp3.1\шарп проект.csproj.GenerateResource.cache
+C:\Users\1392967\Desktop\Jäger\UTMN\Course_3\Sharp\шарп проект\obj\Debug\netcoreapp3.1\шарп проект.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1392967\Desktop\Jäger\UTMN\Course_3\Sharp\шарп проект\obj\Debug\netcoreapp3.1\шарп проект.AssemblyInfoInputs.cache
+C:\Users\1392967\Desktop\Jäger\UTMN\Course_3\Sharp\шарп проект\obj\Debug\netcoreapp3.1\шарп проект.AssemblyInfo.cs
+C:\Users\1392967\Desktop\Jäger\UTMN\Course_3\Sharp\шарп проект\obj\Debug\netcoreapp3.1\шарп проект.csproj.CoreCompileInputs.cache
+C:\Users\1392967\Desktop\Jäger\UTMN\Course_3\Sharp\шарп проект\obj\Debug\netcoreapp3.1\шарп проект.dll
+C:\Users\1392967\Desktop\Jäger\UTMN\Course_3\Sharp\шарп проект\obj\Debug\netcoreapp3.1\шарп проект.pdb
+C:\Users\1392967\Desktop\Jäger\UTMN\Course_3\Sharp\шарп проект\obj\Debug\netcoreapp3.1\шарп проект.genruntimeconfig.cache
+C:\Users\Kirill\Desktop\sharp\шарп проект\bin\Debug\netcoreapp3.1\шарп проект.exe
+C:\Users\Kirill\Desktop\sharp\шарп проект\bin\Debug\netcoreapp3.1\шарп проект.deps.json
+C:\Users\Kirill\Desktop\sharp\шарп проект\bin\Debug\netcoreapp3.1\шарп проект.runtimeconfig.json
+C:\Users\Kirill\Desktop\sharp\шарп проект\bin\Debug\netcoreapp3.1\шарп проект.runtimeconfig.dev.json
+C:\Users\Kirill\Desktop\sharp\шарп проект\bin\Debug\netcoreapp3.1\шарп проект.dll
+C:\Users\Kirill\Desktop\sharp\шарп проект\bin\Debug\netcoreapp3.1\шарп проект.pdb
+C:\Users\Kirill\Desktop\sharp\шарп проект\obj\Debug\netcoreapp3.1\шарп проект.csproj.AssemblyReference.cache
+C:\Users\Kirill\Desktop\sharp\шарп проект\obj\Debug\netcoreapp3.1\шарп_проект.Auth.resources
+C:\Users\Kirill\Desktop\sharp\шарп проект\obj\Debug\netcoreapp3.1\шарп_проект.detail.resources
+C:\Users\Kirill\Desktop\sharp\шарп проект\obj\Debug\netcoreapp3.1\шарп_проект.Registration.resources
+C:\Users\Kirill\Desktop\sharp\шарп проект\obj\Debug\netcoreapp3.1\шарп_проект.Table.resources
+C:\Users\Kirill\Desktop\sharp\шарп проект\obj\Debug\netcoreapp3.1\шарп проект.csproj.GenerateResource.cache
+C:\Users\Kirill\Desktop\sharp\шарп проект\obj\Debug\netcoreapp3.1\шарп проект.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kirill\Desktop\sharp\шарп проект\obj\Debug\netcoreapp3.1\шарп проект.AssemblyInfoInputs.cache
+C:\Users\Kirill\Desktop\sharp\шарп проект\obj\Debug\netcoreapp3.1\шарп проект.AssemblyInfo.cs
+C:\Users\Kirill\Desktop\sharp\шарп проект\obj\Debug\netcoreapp3.1\шарп проект.csproj.CoreCompileInputs.cache
+C:\Users\Kirill\Desktop\sharp\шарп проект\obj\Debug\netcoreapp3.1\шарп проект.dll
+C:\Users\Kirill\Desktop\sharp\шарп проект\obj\Debug\netcoreapp3.1\шарп проект.pdb
+C:\Users\Kirill\Desktop\sharp\шарп проект\obj\Debug\netcoreapp3.1\шарп проект.genruntimeconfig.cache
+C:\Users\Kirill\Desktop\sharp\шарп проект\obj\Debug\netcoreapp3.1\шарп_проект.institution_Сard.resources
