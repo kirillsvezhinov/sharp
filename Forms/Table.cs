@@ -1,9 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Text;
 using System.Windows.Forms;
 
 namespace шарп_проект
@@ -17,6 +13,7 @@ namespace шарп_проект
         private int paginationCount;
         private Dictionary<string, string> filterList;
         private List<string> sortList;
+        
         public Table()
         {
             InitializeComponent();
@@ -49,18 +46,19 @@ namespace шарп_проект
             if (user.Role_FK == 2 || user.Role_FK == 6 || user.Role_FK == 10)
                 filterList.Add("Municipality_FK", user.Municipality_FK.ToString());
           
-
             var organizations = tableController.GetOrganizationsWithPagination(paginationCount, filterList, sortList);
             if (user.Role_FK == 9 || user.Role_FK == 10) 
             {
                 delete_btn.Visible = true;
                 create_btn.Visible = true;
             }
+
             label1.Text = user.User_Name;
             label2.Text = user.Role.Role_Name;
             FillTable(organizations);
             dataGridView1.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
             dataGridView1.ClearSelection();
+
             if (organizations.Count < paginationCount)
                 pagination_btn.Enabled = false;
 
@@ -84,7 +82,6 @@ namespace шарп_проект
             cardForm.user = user;
             cardForm.organization = cardController.GetOrganization(id);
             cardForm.ShowDialog();
-           
         }
 
         private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
@@ -92,6 +89,7 @@ namespace шарп_проект
             if (dataGridView1.SelectedRows.Count == 1) 
             {
                 int type_id = Convert.ToInt32(dataGridView1.SelectedRows[0].Cells[7].Value);
+                
                 if (user.Role_FK == 9)
                 {
                     if (type_id == 1 || type_id == 2 || type_id == 7)
@@ -106,8 +104,6 @@ namespace шарп_проект
                     else
                         delete_btn.Enabled = false;
                 }
-
-                
             }
             else
                 delete_btn.Enabled = false;
@@ -133,6 +129,7 @@ namespace шарп_проект
         private void export_btn_Click(object sender, EventArgs e)
         {
             bool resulExport = exportImporter.ExportToExcel(filterList, sortList);
+            
             if (resulExport)
                 MessageBox.Show("Успешно! Файл сохранен на рабочем столе");
             else
@@ -144,8 +141,10 @@ namespace шарп_проект
             paginationCount += 1;
             var organizations = tableController.GetOrganizationsWithPagination(paginationCount, filterList, sortList);
             FillTable(organizations);
+            
             if (organizations.Count < paginationCount)
                 pagination_btn.Enabled = false;
+
             dataGridView1.ClearSelection();
         }
 
@@ -218,13 +217,12 @@ namespace шарп_проект
         {
             if (textBox1.Text == "" && comboBox2.SelectedIndex == -1)
                 search_btn.Enabled = false;
-            else  if (textBox1.Text != "" && comboBox2.SelectedIndex != -1)
+            else if (textBox1.Text != "" && comboBox2.SelectedIndex != -1)
                 search_btn.Enabled = true;
         }
 
         private void clearFilter() 
         {
-
             if (filterList.ContainsKey("Organization_Name"))
                 filterList.Remove("Organization_Name");
 
@@ -242,6 +240,7 @@ namespace шарп_проект
         {
             var headerText = dataGridView1.Columns[e.ColumnIndex].HeaderText;
             var nameColumn = dataGridView1.Columns[e.ColumnIndex].Name;
+
             if (sortList.Contains(nameColumn + "DESC"))
             {
                 sortList.Remove(nameColumn + "DESC");

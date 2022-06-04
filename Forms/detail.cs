@@ -13,6 +13,7 @@ namespace шарп_проект
         internal Organization organization;
         private CardController cardController;
         internal User user;
+        
         public detail()
         {
             InitializeComponent();
@@ -27,7 +28,6 @@ namespace шарп_проект
             kpp_org.TextChanged += changeEvent;
             sign_org.SelectedIndexChanged += changeEvent;
             type_org.SelectedIndexChanged += changeEvent;
-            
 
             fillComboboxes();
 
@@ -76,6 +76,7 @@ namespace шарп_проект
                     return true;
             else if ((user.Role_FK == 10) && (organization_type_id != 1 && organization_type_id != 2 && organization_type_id != 7))
                     return true;
+            
             return false;
         }
 
@@ -91,7 +92,6 @@ namespace шарп_проект
             sign_org.DataSource = new BindingSource(sourceForComboboxSign, null);
             sign_org.DisplayMember = "Value";
             sign_org.ValueMember = "Key";
-
 
             var organization_municipality = cardController.GetMunicipality();
             foreach (var municipality in organization_municipality)
@@ -121,7 +121,7 @@ namespace шарп_проект
             type_org.ValueMember = "Key";
         }
 
-        private void cancel_btn_Click(object sender, EventArgs e) => this.Close();
+        private void cancel_btn_Click(object sender, EventArgs e) => Close();
        
         private void update_btn_Click(object sender, EventArgs e)
         {
@@ -133,6 +133,7 @@ namespace шарп_проект
             sign_org.Enabled = true;
             save_btn.Visible = true;
             update_btn.Visible = false;
+
             if (user.Role_FK == 9)
                 mun_org.Enabled = true;
         }
@@ -164,7 +165,8 @@ namespace шарп_проект
                     selected_type,selected_sign, municipality_id);
                 MessageBox.Show("Организация успешно добавлена");
             }
-            this.Close();
+            
+            Close();
         }
 
         private void changeEvent(object sender, EventArgs e)
