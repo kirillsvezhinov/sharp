@@ -18,7 +18,10 @@ namespace шарп_проект
         public DbSet<Organization_Sign> Organization_Sign { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) 
-            => optionsBuilder.UseNpgsql("Host=localhost;Port=5432;Database=organisations;Username=postgres;Password=root");
-
+            => optionsBuilder.UseNpgsql("Host=localhost;" +
+                "Port = 5432;" +
+                "Database = organisations;" +
+                "Username = postgres;" +
+                "Password = root");
     }
 }

@@ -74,3 +74,41 @@ C:\Users\Kirill\Desktop\шарп проект\obj\Debug\net6.0-windows\refint\ш
 C:\Users\Kirill\Desktop\шарп проект\obj\Debug\net6.0-windows\шарп проект.pdb
 C:\Users\Kirill\Desktop\шарп проект\obj\Debug\net6.0-windows\шарп проект.genruntimeconfig.cache
 C:\Users\Kirill\Desktop\шарп проект\obj\Debug\net6.0-windows\ref\шарп проект.dll
+C:\Users\1392967\source\repos\Sharp\bin\Debug\net6.0-windows\шарп проект.exe
+C:\Users\1392967\source\repos\Sharp\bin\Debug\net6.0-windows\шарп проект.deps.json
+C:\Users\1392967\source\repos\Sharp\bin\Debug\net6.0-windows\шарп проект.runtimeconfig.json
+C:\Users\1392967\source\repos\Sharp\bin\Debug\net6.0-windows\шарп проект.dll
+C:\Users\1392967\source\repos\Sharp\bin\Debug\net6.0-windows\шарп проект.pdb
+C:\Users\1392967\source\repos\Sharp\bin\Debug\net6.0-windows\ClosedXML.dll
+C:\Users\1392967\source\repos\Sharp\bin\Debug\net6.0-windows\DocumentFormat.OpenXml.dll
+C:\Users\1392967\source\repos\Sharp\bin\Debug\net6.0-windows\ExcelNumberFormat.dll
+C:\Users\1392967\source\repos\Sharp\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.dll
+C:\Users\1392967\source\repos\Sharp\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\1392967\source\repos\Sharp\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\1392967\source\repos\Sharp\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\1392967\source\repos\Sharp\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\1392967\source\repos\Sharp\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\1392967\source\repos\Sharp\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\1392967\source\repos\Sharp\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\1392967\source\repos\Sharp\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.dll
+C:\Users\1392967\source\repos\Sharp\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\1392967\source\repos\Sharp\bin\Debug\net6.0-windows\Microsoft.Extensions.Options.dll
+C:\Users\1392967\source\repos\Sharp\bin\Debug\net6.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\1392967\source\repos\Sharp\bin\Debug\net6.0-windows\Npgsql.dll
+C:\Users\1392967\source\repos\Sharp\bin\Debug\net6.0-windows\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\1392967\source\repos\Sharp\obj\Debug\net6.0-windows\шарп проект.csproj.AssemblyReference.cache
+C:\Users\1392967\source\repos\Sharp\obj\Debug\net6.0-windows\шарп_проект.Auth.resources
+C:\Users\1392967\source\repos\Sharp\obj\Debug\net6.0-windows\шарп_проект.detail.resources
+C:\Users\1392967\source\repos\Sharp\obj\Debug\net6.0-windows\шарп_проект.Registration.resources
+C:\Users\1392967\source\repos\Sharp\obj\Debug\net6.0-windows\шарп_проект.Table.resources
+C:\Users\1392967\source\repos\Sharp\obj\Debug\net6.0-windows\шарп проект.csproj.GenerateResource.cache
+C:\Users\1392967\source\repos\Sharp\obj\Debug\net6.0-windows\шарп проект.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1392967\source\repos\Sharp\obj\Debug\net6.0-windows\шарп проект.AssemblyInfoInputs.cache
+C:\Users\1392967\source\repos\Sharp\obj\Debug\net6.0-windows\шарп проект.AssemblyInfo.cs
+C:\Users\1392967\source\repos\Sharp\obj\Debug\net6.0-windows\шарп проект.csproj.CoreCompileInputs.cache
+C:\Users\1392967\source\repos\Sharp\obj\Debug\net6.0-windows\шарп проект.csproj.CopyComplete
+C:\Users\1392967\source\repos\Sharp\obj\Debug\net6.0-windows\шарп проект.dll
+C:\Users\1392967\source\repos\Sharp\obj\Debug\net6.0-windows\refint\шарп проект.dll
+C:\Users\1392967\source\repos\Sharp\obj\Debug\net6.0-windows\шарп проект.pdb
+C:\Users\1392967\source\repos\Sharp\obj\Debug\net6.0-windows\шарп проект.genruntimeconfig.cache
+C:\Users\1392967\source\repos\Sharp\obj\Debug\net6.0-windows\ref\шарп проект.dll

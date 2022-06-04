@@ -9,10 +9,11 @@ namespace шарп_проект
 {
     class ExportImporter
     {
-        public bool ExportToExcel(Dictionary<string,string> filterList,List<string> sortList)
+        public bool ExportToExcel(Dictionary<string,string> filterList, List<string> sortList)
         {
             TableController tableController = new TableController();
             var organizations = tableController.GetAllOrganizations(filterList,sortList);
+
             try
             {
                 var pathToDesktop = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
@@ -39,7 +40,10 @@ namespace шарп_проект
                 workBook.SaveAs(Path.Combine(pathToDesktop, "Реестр_Организаций.xlsx"));
                 return true;
             }
-            catch { return false; }
+            catch (Exception e)
+            { 
+                return false; 
+            }
         }
     }
 }

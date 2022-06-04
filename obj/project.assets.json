@@ -5375,23 +5375,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Kirill\\.nuget\\packages\\": {},
+    "C:\\Users\\1392967\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Kirill\\Desktop\\шарп проект\\шарп проект.csproj",
+      "projectUniqueName": "C:\\Users\\1392967\\source\\repos\\Sharp\\шарп проект.csproj",
       "projectName": "шарп проект",
-      "projectPath": "C:\\Users\\Kirill\\Desktop\\шарп проект\\шарп проект.csproj",
-      "packagesPath": "C:\\Users\\Kirill\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Kirill\\Desktop\\шарп проект\\obj\\",
+      "projectPath": "C:\\Users\\1392967\\source\\repos\\Sharp\\шарп проект.csproj",
+      "packagesPath": "C:\\Users\\1392967\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\1392967\\source\\repos\\Sharp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Kirill\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\1392967\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
